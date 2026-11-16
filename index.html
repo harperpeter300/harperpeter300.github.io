@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="抖漫,抖漫官网,抖音漫画,免费漫画,在线阅读,日漫,韩漫,漫画排行榜,高清漫画">
+<meta name="description" content="抖漫汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。从热血冒险到都市爱恋，发现属于你的漫画世界。">
+<title>抖漫-抖音漫画官网-免费在线阅读海量漫画</title>
+<link rel="canonical" href="https://www.douman.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#151226">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="抖漫">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="抖漫-抖音漫画官网-免费在线阅读海量漫画">
+<meta property="og:description" content="抖漫汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。从热血冒险到都市爱恋，发现属于你的漫画世界。">
+<meta property="og:url" content="https://www.douman.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="抖漫-抖音漫画官网-免费在线阅读海量漫画">
+<meta name="twitter:description" content="抖漫汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。从热血冒险到都市爱恋，发现属于你的漫画世界。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "抖漫",
+  "alternateName": "抖音漫画",
+  "url": "https://www.douman.com/",
+  "description": "抖漫汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。从热血冒险到都市爱恋，发现属于你的漫画世界。",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.douman.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "抖漫",
+    "url": "https://www.douman.com/"
+  }
+}
+</script>
+<style>
+:root {
+  --bg: #100e1c;
+  --bg-soft: #181430;
+  --card: #1e1938;
+  --card-hover: #262047;
+  --line: rgba(255,255,255,0.08);
+  --text: #eae7f5;
+  --muted: #a49dc0;
+  --brand: #ff4d6d;
+  --brand-2: #7c5cff;
+  --brand-3: #22d3ee;
+  --radius: 16px;
+  --shadow: 0 18px 40px rgba(0,0,0,0.35);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(16,14,28,0.86);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.header-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 18px; height: 68px;
+}
+.logo { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; letter-spacing: 1px; }
+.logo-mark {
+  width: 36px; height: 36px; border-radius: 11px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  display: grid; place-items: center; font-size: 17px; font-weight: 800; color: #fff;
+}
+.nav { display: flex; align-items: center; gap: 26px; font-size: 15px; }
+.nav a { color: var(--muted); transition: color .2s ease; }
+.nav a:hover, .nav a.active { color: #fff; }
+.header-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 20px; border-radius: 999px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #fff; font-size: 14px; font-weight: 600;
+  box-shadow: 0 10px 24px rgba(255,77,109,0.28);
+  white-space: nowrap;
+}
+.menu-toggle { display: none; background: none; border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 8px 12px; font-size: 14px; }
+.hero {
+  position: relative; overflow: hidden;
+  padding: 84px 0 72px;
+  background:
+    radial-gradient(720px 340px at 12% 0%, rgba(124,92,255,0.34), transparent 62%),
+    radial-gradient(620px 320px at 88% 12%, rgba(255,77,109,0.28), transparent 60%),
+    linear-gradient(180deg, #15112a 0%, #100e1c 100%);
+  border-bottom: 1px solid var(--line);
+}
+.hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 46px; align-items: center; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 999px; font-size: 13px;
+  color: #ffd6de; background: rgba(255,77,109,0.14);
+  border: 1px solid rgba(255,77,109,0.32);
+}
+.hero h1 { font-size: 46px; line-height: 1.22; margin: 20px 0 16px; font-weight: 800; letter-spacing: -0.5px; }
+.hero h1 span { background: linear-gradient(120deg, var(--brand), var(--brand-2) 55%, var(--brand-3)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero p.lead { font-size: 16px; color: var(--muted); max-width: 560px; }
+.search-bar {
+  display: flex; gap: 10px; margin-top: 28px; max-width: 540px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--line);
+  border-radius: 14px; padding: 8px;
+}
+.search-bar input {
+  flex: 1; background: transparent; border: none; outline: none;
+  color: var(--text); font-size: 15px; padding: 10px 12px;
+}
+.search-bar input::placeholder { color: #7d7796; }
+.search-bar button {
+  border: none; cursor: pointer; padding: 11px 22px; border-radius: 10px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #fff; font-size: 15px; font-weight: 600;
+}
+.hero-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; font-size: 13px; color: var(--muted); }
+.hero-tags a { padding: 5px 12px; border-radius: 999px; background: rgba(255,255,255,0.05); border: 1px solid var(--line); }
+.hero-tags a:hover { color: #fff; border-color: rgba(255,77,109,0.5); }
+.hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 34px; max-width: 540px; }
+.hero-stats div { background: rgba(255,255,255,0.04); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.hero-stats strong { display: block; font-size: 22px; color: #fff; }
+.hero-stats span { font-size: 13px; color: var(--muted); }
+.hero-visual { position: relative; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.cover {
+  border-radius: 14px; aspect-ratio: 3 / 4; position: relative; overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: var(--shadow);
+  display: flex; align-items: flex-end; padding: 14px;
+  font-weight: 700; font-size: 15px; color: #fff;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+.cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.72)); }
+.cover span { position: relative; z-index: 1; }
+.cover.c1 { background: linear-gradient(150deg, #ff6b81, #7c5cff); }
+.cover.c2 { background: linear-gradient(150deg, #22d3ee, #4f46e5); margin-top: 26px; }
+.cover.c3 { background: linear-gradient(150deg, #f59e0b, #ef4444); }
+.cover.c4 { background: linear-gradient(150deg, #34d399, #0ea5e9); margin-top: 26px; }
+.section { padding: 68px 0; }
+.section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 30px; flex-wrap: wrap; }
+.section-head h2 { font-size: 30px; font-weight: 800; letter-spacing: -0.3px; }
+.section-head h2 em { font-style: normal; color: var(--brand); }
+.section-head p { color: var(--muted); font-size: 15px; margin-top: 8px; max-width: 720px; }
+.more-link { color: var(--brand-3); font-size: 14px; border-bottom: 1px dashed rgba(34,211,238,0.42); padding-bottom: 2px; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+.cat-item {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px; transition: transform .22s ease, background .22s ease, border-color .22s ease;
+}
+.cat-item:hover { transform: translateY(-4px); background: var(--card-hover); border-color: rgba(255,77,109,0.35); }
+.cat-icon {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  font-size: 16px; font-weight: 800; color: #fff; margin-bottom: 14px;
+}
+.cat-item h3 { font-size: 18px; margin-bottom: 8px; }
+.cat-item p { font-size: 14px; color: var(--muted); }
+.cat-meta { margin-top: 14px; font-size: 13px; color: #8b84a8; display: flex; justify-content: space-between; }
+.feature-strip {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;
+  margin-top: 34px;
+}
+.feature-strip div { background: rgba(255,255,255,0.04); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+.feature-strip strong { display: block; font-size: 16px; margin-bottom: 6px; }
+.feature-strip span { font-size: 14px; color: var(--muted); }
+.comic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 22px; }
+.comic-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+.comic-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: rgba(124,92,255,0.45); }
+.comic-cover {
+  aspect-ratio: 3 / 4; position: relative; display: flex; align-items: flex-start;
+  justify-content: space-between; padding: 12px; font-weight: 800; font-size: 18px; color: #fff;
+}
+.comic-cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.78)); }
+.comic-cover .cc-title { position: relative; z-index: 1; font-size: 14px; padding: 4px 10px; border-radius: 8px; background: rgba(0,0,0,0.32); backdrop-filter: blur(4px); }
+.comic-cover .cc-hot { position: relative; z-index: 1; font-size: 12px; padding: 4px 9px; border-radius: 8px; background: rgba(255,77,109,0.85); }
+.g1 { background: linear-gradient(150deg, #ff7a59, #b4216b); }
+.g2 { background: linear-gradient(150deg, #4f46e5, #22d3ee); }
+.g3 { background: linear-gradient(150deg, #f59e0b, #b91c1c); }
+.g4 { background: linear-gradient(150deg, #0ea5e9, #1e3a8a); }
+.g5 { background: linear-gradient(150deg, #ec4899, #8b5cf6); }
+.g6 { background: linear-gradient(150deg, #10b981, #065f46); }
+.g7 { background: linear-gradient(150deg, #6366f1, #0f172a); }
+.g8 { background: linear-gradient(150deg, #f43f5e, #7c2d12); }
+.g9 { background: linear-gradient(150deg, #8b5cf6, #1e1b4b); }
+.comic-body { padding: 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.comic-body h3 { font-size: 17px; }
+.comic-body .desc { font-size: 13px; color: var(--muted); line-height: 1.65; flex: 1; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: rgba(124,92,255,0.16); color: #c8bcff; border: 1px solid rgba(124,92,255,0.3); }
+.comic-foot { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #8b84a8; border-top: 1px solid var(--line); padding-top: 10px; }
+.rank-wrap { display: grid; grid-template-columns: 1.7fr 1fr; gap: 24px; }
+.rank-list { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.rank-row {
+  display: grid; grid-template-columns: 46px 1fr auto auto; gap: 14px; align-items: center;
+  padding: 15px 20px; border-bottom: 1px solid var(--line); font-size: 15px;
+}
+.rank-row:last-child { border-bottom: none; }
+.rank-row:hover { background: rgba(255,255,255,0.03); }
+.rank-no { font-weight: 800; color: #6f6a8c; text-align: center; }
+.rank-row.top1 .rank-no, .rank-row.top2 .rank-no, .rank-row.top3 .rank-no { color: var(--brand); }
+.rank-name { display: flex; flex-direction: column; gap: 3px; }
+.rank-name small { color: var(--muted); font-size: 12px; }
+.rank-cat { font-size: 12px; color: #c8bcff; background: rgba(124,92,255,0.16); border-radius: 999px; padding: 3px 10px; }
+.rank-hot { font-size: 13px; color: var(--brand-3); white-space: nowrap; }
+.rank-side { display: flex; flex-direction: column; gap: 16px; }
+.side-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+.side-card h3 { font-size: 17px; margin-bottom: 14px; }
+.side-list { display: flex; flex-direction: column; gap: 12px; font-size: 14px; }
+.side-list li { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); list-style: none; }
+.side-list li b { color: var(--text); font-weight: 600; }
+.about-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 34px; align-items: start; }
+.about-grid p { color: var(--muted); margin-bottom: 16px; font-size: 15px; }
+.about-grid h3 { font-size: 20px; margin-bottom: 14px; }
+.about-points { display: grid; gap: 12px; }
+.about-points div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; font-size: 14px; color: var(--muted); }
+.about-points strong { color: var(--text); display: block; margin-bottom: 4px; font-size: 15px; }
+.faq { display: grid; gap: 14px; margin-top: 8px; }
+.faq details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+.faq summary { cursor: pointer; font-weight: 600; font-size: 15px; }
+.faq p { color: var(--muted); font-size: 14px; margin-top: 10px; }
+.site-footer { border-top: 1px solid var(--line); background: #0c0a16; padding: 52px 0 26px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 30px; }
+.footer-grid h4 { font-size: 15px; margin-bottom: 14px; }
+.footer-grid ul { list-style: none; display: grid; gap: 10px; font-size: 14px; color: var(--muted); }
+.footer-grid ul a:hover { color: #fff; }
+.footer-brand p { color: var(--muted); font-size: 14px; margin-top: 12px; max-width: 320px; }
+.footer-bottom { margin-top: 38px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; font-size: 13px; color: #7d7796; }
+@media (max-width: 980px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+  .hero h1 { font-size: 36px; }
+  .hero-visual { max-width: 420px; }
+  .rank-wrap { grid-template-columns: 1fr; }
+  .about-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .header-inner { height: 62px; }
+  .nav { display: none; }
+  .nav.open {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 14px;
+    position: absolute; top: 62px; left: 0; right: 0;
+    background: #15112a; padding: 20px; border-bottom: 1px solid var(--line);
+  }
+  .menu-toggle { display: inline-block; }
+  .header-cta { display: none; }
+  .hero { padding: 56px 0 48px; }
+  .hero h1 { font-size: 29px; }
+  .hero-stats { grid-template-columns: 1fr 1fr; }
+  .section { padding: 48px 0; }
+  .section-head h2 { font-size: 24px; }
+  .search-bar { flex-direction: column; }
+  .search-bar button { width: 100%; }
+  .rank-row { grid-template-columns: 34px 1fr auto; row-gap: 6px; padding: 14px; }
+  .rank-cat { display: none; }
+  .footer-grid { grid-template-columns: 1fr; }
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top"><span class="logo-mark">抖</span>抖漫</a>
+    <nav class="nav" id="mainNav">
+      <a class="active" href="#top">首页</a>
+      <a href="#category">分类</a>
+      <a href="#ranking">排行榜</a>
+      <a href="#hot">热门推荐</a>
+      <a href="#about">关于抖漫</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="header-cta" href="#hot">免费开始阅读</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="展开导航">菜单</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="hero-badge">正版授权 · 全站免费阅读</span>
+        <h1>抖漫：在抖音漫画，<span>免费在线阅读海量漫画</span></h1>
+        <p class="lead">抖漫汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。从热血冒险到都市爱恋，从日漫、韩漫到国漫原创，每天更新数千话，手机、平板、电脑多端同步，打开即读，无需等待。</p>
+        <form class="search-bar" onsubmit="return false;">
+          <input type="search" placeholder="搜索漫画名、作者或关键词，例如：热血、恋爱、悬疑" aria-label="搜索漫画">
+          <button type="submit">搜索漫画</button>
+        </form>
+        <div class="hero-tags">
+          <a href="#category">热血</a>
+          <a href="#category">都市</a>
+          <a href="#category">恋爱</a>
+          <a href="#category">悬疑</a>
+          <a href="#category">古风</a>
+          <a href="#category">玄幻</a>
+          <a href="#ranking">漫画排行榜</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>12000+</strong><span>在库漫画作品</span></div>
+          <div><strong>280万+</strong><span>累计更新话数</span></div>
+          <div><strong>4K 高清</strong><span>全彩画质呈现</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <a class="cover c1" href="#hot"><span>焚天纪</span></a>
+        <a class="cover c2" href="#hot"><span>深空回响</span></a>
+        <a class="cover c3" href="#hot"><span>长安夜行录</span></a>
+        <a class="cover c4" href="#hot"><span>心动合约</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="category">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>漫画<em>分类</em>频道</h2>
+          <p>按题材精准筛选，八大人气分区覆盖热血、都市、恋爱、悬疑、古风、玄幻、校园与科幻，无论你偏好哪一种阅读节奏，都能在抖漫快速找到对味的那一本。</p>
+        </div>
+        <a class="more-link" href="#hot">查看全部频道</a>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g1">热</div>
+          <h3>热血冒险</h3>
+          <p>少年逆袭、宗门对决、极限成长，拳拳到肉的战斗分镜与高燃剧情连番推进。</p>
+          <div class="cat-meta"><span>1860 部作品</span><span>日更 120 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g4">都</div>
+          <h3>都市生活</h3>
+          <p>职场博弈、商战反转、都市异能，贴近现实的场景里藏着最抓人的爽感节奏。</p>
+          <div class="cat-meta"><span>1420 部作品</span><span>日更 96 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g5">恋</div>
+          <h3>恋爱甜宠</h3>
+          <p>双向暗恋、先婚后爱、校园心事，细腻情绪线配合高甜画面，一口气读完不腻。</p>
+          <div class="cat-meta"><span>2100 部作品</span><span>日更 150 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g7">悬</div>
+          <h3>悬疑推理</h3>
+          <p>凶案现场、密室诡计、层层伏笔，跟随主角一步步拆解真相背后的动机与人心。</p>
+          <div class="cat-meta"><span>980 部作品</span><span>日更 64 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g3">古</div>
+          <h3>古风国韵</h3>
+          <p>王朝权谋、江湖恩怨、衣袂翩跹，工笔考据的服饰场景还原东方美学质感。</p>
+          <div class="cat-meta"><span>1240 部作品</span><span>日更 78 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g9">玄</div>
+          <h3>玄幻修真</h3>
+          <p>灵根觉醒、秘境探宝、飞升问道，宏大世界观与境界体系带来沉浸式修炼体验。</p>
+          <div class="cat-meta"><span>1680 部作品</span><span>日更 132 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g6">校</div>
+          <h3>校园青春</h3>
+          <p>社团日常、备考冲刺、青涩告白，把学生时代的心跳与遗憾重新画给你看。</p>
+          <div class="cat-meta"><span>890 部作品</span><span>日更 58 话</span></div>
+        </a>
+        <a class="cat-item" href="#hot">
+          <div class="cat-icon g2">科</div>
+          <h3>科幻未来</h3>
+          <p>赛博都市、星际航行、人工智能伦理，用冷峻设定讨论最热的人性命题。</p>
+          <div class="cat-meta"><span>760 部作品</span><span>日更 46 话</span></div>
+        </a>
+      </div>
+      <div class="feature-strip">
+        <div><strong>高清全彩画质</strong><span>原图直出与智能分片加载，放大阅读不掉帧。</span></div>
+        <div><strong>丝滑翻页体验</strong><span>纵向滚动与翻页模式自由切换，弱网也能顺畅读。</span></div>
+        <div><strong>进度云端同步</strong><span>登录后自动记录每一话的阅读位置，换设备接着看。</span></div>
+        <div><strong>更新提醒服务</strong><span>追更作品更新即刻提醒，不错过任何一话。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="hot" style="background: var(--bg-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>热门<em>漫画</em>推荐</h2>
+          <p>编辑部与读者共同票选的当季热门作品，涵盖玄幻、都市、恋爱、悬疑等主流题材，全部支持免费在线阅读，点击即可进入作品详情页追更。</p>
+        </div>
+        <a class="more-link" href="#ranking">看完整排行榜</a>
+      </div>
+      <div class="comic-grid">
+        <article class="comic-card">
+          <div class="comic-cover g1"><span class="cc-title">焚天纪</span><span class="cc-hot">9.8</span></div>
+          <div class="comic-body">
+            <h3>焚天纪</h3>
+            <p class="desc">被逐出宗门的少年意外唤醒体内上古火种，从边陲小镇一路踏向九重天阙。作者用凌厉的战斗分镜把每一次突破都画得酣畅淋漓。</p>
+            <div class="tag-row"><span class="tag">热血</span><span class="tag">玄幻</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 486 话</span><span>人气 1286 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g4"><span class="cc-title">都市之巅</span><span class="cc-hot">9.5</span></div>
+          <div class="comic-body">
+            <h3>都市之巅</h3>
+            <p class="desc">退役运动员回到老城区接手一家濒临倒闭的拳馆，从带出第一个学员开始重新站上属于自己的擂台，写实画风与成长线并行。</p>
+            <div class="tag-row"><span class="tag">都市</span><span class="tag">励志</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 312 话</span><span>人气 964 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g5"><span class="cc-title">心动合约</span><span class="cc-hot">9.6</span></div>
+          <div class="comic-body">
+            <h3>心动合约</h3>
+            <p class="desc">为了让家里安心的临时合约，却在一次次加班晚餐里悄悄变了味道。细腻的情绪分镜与克制对白，是本季讨论度很高的恋爱作品。</p>
+            <div class="tag-row"><span class="tag">恋爱</span><span class="tag">甜宠</span><span class="tag">完结</span></div>
+            <div class="comic-foot"><span>全 168 话</span><span>人气 1520 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g7"><span class="cc-title">长安夜行录</span><span class="cc-hot">9.7</span></div>
+          <div class="comic-body">
+            <h3>长安夜行录</h3>
+            <p class="desc">夜色下的长安接连发生离奇命案，负责巡查的少年郎在追查线索时发现，所有死者都与十二年前的一桩旧案有关。</p>
+            <div class="tag-row"><span class="tag">古风</span><span class="tag">悬疑</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 224 话</span><span>人气 1102 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g2"><span class="cc-title">深空回响</span><span class="cc-hot">9.4</span></div>
+          <div class="comic-body">
+            <h3>深空回响</h3>
+            <p class="desc">一支深海科考队接收到来自星空的重复信号，队长手册上却早已写下了这段对话。设定严谨的科幻悬疑，伏笔回收干净利落。</p>
+            <div class="tag-row"><span class="tag">科幻</span><span class="tag">烧脑</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 156 话</span><span>人气 782 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g6"><span class="cc-title">山海食肆</span><span class="cc-hot">9.3</span></div>
+          <div class="comic-body">
+            <h3>山海食肆</h3>
+            <p class="desc">开在山脚的小店只在雨天营业，来客都是形形色色的异兽。一饭一蔬之间，讲的是世间最普通的聚散与和解。</p>
+            <div class="tag-row"><span class="tag">奇幻</span><span class="tag">治愈</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 198 话</span><span>人气 654 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g8"><span class="cc-title">天机阁</span><span class="cc-hot">9.2</span></div>
+          <div class="comic-body">
+            <h3>天机阁</h3>
+            <p class="desc">专门处理「无法解释事件」的小组接连收到匿名委托，每一桩看似独立的怪事，都指向同一份被封存的名单。</p>
+            <div class="tag-row"><span class="tag">悬疑</span><span class="tag">推理</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 142 话</span><span>人气 588 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g3"><span class="cc-title">剑影江湖</span><span class="cc-hot">9.5</span></div>
+          <div class="comic-body">
+            <h3>剑影江湖</h3>
+            <p class="desc">一封旧信把隐退多年的剑客重新拉回纷争，师门、恩义与家国之间的取舍，构成了这部作品最耐读的部分。</p>
+            <div class="tag-row"><span class="tag">武侠</span><span class="tag">热血</span><span class="tag">完结</span></div>
+            <div class="comic-foot"><span>全 210 话</span><span>人气 836 万</span></div>
+          </div>
+        </article>
+        <article class="comic-card">
+          <div class="comic-cover g9"><span class="cc-title">我的同桌是妖王</span><span class="cc-hot">9.1</span></div>
+          <div class="comic-body">
+            <h3>我的同桌是妖王</h3>
+            <p class="desc">转学生同桌每天踩着上课铃进教室，却在深夜的旧城区与妖物谈判。轻松日常与紧张战斗交替推进，阅读节奏舒适。</p>
+            <div class="tag-row"><span class="tag">校园</span><span class="tag">奇幻</span><span class="tag">连载中</span></div>
+            <div class="comic-foot"><span>更新至 176 话</span><span>人气 712 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ranking">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>漫画<em>排行榜</em></h2>
+          <p>榜单综合阅读量、收藏数与追更活跃度每周更新一次，实时反映读者真实偏好，可作为挑选下一本要读作品的第一参考。</p>
+        </div>
+        <a class="more-link" href="#hot">换一批看看</a>
+      </div>
+      <div class="rank-wrap">
+        <div class="rank-list">
+          <a class="rank-row top1" href="#hot"><span class="rank-no">01</span><span class="rank-name">焚天纪<small>玄幻 · 连载中 · 每周二、五更新</small></span><span class="rank-cat">热血</span><span class="rank-hot">1286 万</span></a>
+          <a class="rank-row top2" href="#hot"><span class="rank-no">02</span><span class="rank-name">心动合约<small>恋爱 · 已完结 · 全 168 话</small></span><span class="rank-cat">恋爱</span><span class="rank-hot">1520 万</span></a>
+          <a class="rank-row top3" href="#hot"><span class="rank-no">03</span><span class="rank-name">长安夜行录<small>古风 · 连载中 · 每周三更新</small></span><span class="rank-cat">悬疑</span><span class="rank-hot">1102 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">04</span><span class="rank-name">都市之巅<small>都市 · 连载中 · 每周一、四更新</small></span><span class="rank-cat">都市</span><span class="rank-hot">964 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">05</span><span class="rank-name">剑影江湖<small>武侠 · 已完结 · 全 210 话</small></span><span class="rank-cat">武侠</span><span class="rank-hot">836 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">06</span><span class="rank-name">深空回响<small>科幻 · 连载中 · 每周六更新</small></span><span class="rank-cat">科幻</span><span class="rank-hot">782 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">07</span><span class="rank-name">我的同桌是妖王<small>校园 · 连载中 · 每周日更新</small></span><span class="rank-cat">校园</span><span class="rank-hot">712 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">08</span><span class="rank-name">山海食肆<small>奇幻 · 连载中 · 每周四更新</small></span><span class="rank-cat">奇幻</span><span class="rank-hot">654 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">09</span><span class="rank-name">天机阁<small>悬疑 · 连载中 · 每周五更新</small></span><span class="rank-cat">悬疑</span><span class="rank-hot">588 万</span></a>
+          <a class="rank-row" href="#hot"><span class="rank-no">10</span><span class="rank-name">星轨拾荒者<small>科幻 · 连载中 · 双周更新</small></span><span class="rank-cat">科幻</span><span class="rank-hot">512 万</span></a>
+        </div>
+        <aside class="rank-side">
+          <div class="side-card">
+            <h3>本周更新日历</h3>
+            <ul class="side-list">
+              <li><b>周一</b><span>都市之巅 / 天机阁</span></li>
+              <li><b>周二</b><span>焚天纪 / 山海食肆</span></li>
+              <li><b>周三</b><span>长安夜行录 / 剑影江湖</span></li>
+              <li><b>周四</b><span>都市之巅 / 深空回响</span></li>
+              <li><b>周五</b><span>焚天纪 / 心动合约特别篇</span></li>
+              <li><b>周末</b><span>我的同桌是妖王 / 星轨拾荒者</span></li>
+            </ul>
+          </div>
+          <div class="side-card">
+            <h3>新书速递</h3>
+            <ul class="side-list">
+              <li><b>雾港来信</b><span>悬疑 · 更新 12 话</span></li>
+              <li><b>十七楼的风</b><span>都市 · 更新 20 话</span></li>
+              <li><b>灵植图鉴</b><span>玄幻 · 更新 33 话</span></li>
+              <li><b>云端第七步</b><span>科幻 · 更新 9 话</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about" style="background: var(--bg-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="wrap about-grid">
+      <div>
+        <h3>关于抖漫：一个专注阅读体验的免费漫画平台</h3>
+        <p>抖漫是面向全网读者开放的在线漫画阅读平台，站内作品全部经过正版授权与内容审核。我们希望解决的核心问题很简单：让读者不用在多个应用之间来回切换，也不用为了看一话漫画反复跳转页面，打开网页就能顺畅读完想读的内容。</p>
+        <p>在内容层面，抖漫持续引入日漫、韩漫与国内原创作品，题材覆盖热血、都市、恋爱、悬疑、古风、玄幻、校园与科幻，并通过人工编辑与算法结合的方式维护分类与榜单，让新读者更容易找到起点作品，也让老读者不错过冷门佳作。</p>
+        <p>在技术层面，我们对图片资源做了多档分辨率适配与分片加载，页面在移动网络环境下也能保持稳定翻页；阅读进度、收藏与追更列表会保存到账号，换一台设备登录即可继续上一次的阅读位置。</p>
+        <div class="faq" id="faq">
+          <details open>
+            <summary>抖漫上的漫画需要付费吗？</summary>
+            <p>站内常规章节全部免费开放阅读，注册账号后可同步收藏与阅读进度，无需购买章节即可阅读完整内容。</p>
+          </details>
+          <details>
+            <summary>为什么有的作品更新不固定？</summary>
+            <p>连载作品的更新节奏由作者与工作室的创作排期决定，抖漫会在作品详情页标注预计更新时间，并支持更新提醒，作者调整档期时会同步公告。</p>
+          </details>
+          <details>
+            <summary>可以在手机上阅读吗？</summary>
+            <p>可以。抖漫页面做了完整的响应式适配，手机浏览器直接打开即可阅读，支持纵向滚动与分页两种翻页方式。</p>
+          </details>
+          <details>
+            <summary>如何反馈内容或版权问题？</summary>
+            <p>页面底部提供了意见反馈与版权合作入口，收到反馈后我们会在工作日内核实处理，涉及侵权的内容会优先下架复核。</p>
+          </details>
+        </div>
+      </div>
+      <div class="about-points">
+        <div><strong>正版内容</strong>全部作品经授权引入，标注作者与出品方信息，尊重创作者权益。</div>
+        <div><strong>阅读零门槛</strong>无需下载客户端，浏览器直接打开，免费阅读海量章节。</div>
+        <div><strong>多端同步</strong>账号体系支持收藏、追更列表与阅读进度跨设备同步。</div>
+        <div><strong>内容治理</strong>分级提示与内容审核并行，保障阅读环境干净、稳定。</div>
+        <div><strong>创作者友好</strong>为独立作者与工作室提供作品曝光位与数据回看支持。</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top"><span class="logo-mark">抖</span>抖漫</a>
+        <p>抖漫 · 抖音漫画，免费在线阅读海量漫画。汇聚全球正版精品漫画，提供极致高清画质与丝滑阅读体验。</p>
+      </div>
+      <div>
+        <h4>热门频道</h4>
+        <ul>
+          <li><a href="#category">热血冒险</a></li>
+          <li><a href="#category">都市生活</a></li>
+          <li><a href="#category">恋爱甜宠</a></li>
+          <li><a href="#category">悬疑推理</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>快速入口</h4>
+        <ul>
+          <li><a href="#ranking">漫画排行榜</a></li>
+          <li><a href="#hot">热门推荐</a></li>
+          <li><a href="#category">全部分类</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>服务与支持</h4>
+        <ul>
+          <li><a href="#about">关于我们</a></li>
+          <li><a href="#about">版权合作</a></li>
+          <li><a href="#about">意见反馈</a></li>
+          <li><a href="#faq">阅读帮助</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 抖漫 douman.com 保留所有权利</span>
+      <span>本站内容均为正版授权，仅供读者在线阅读使用</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('mainNav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function () {
+      nav.classList.toggle('open');
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        nav.classList.remove('open');
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
